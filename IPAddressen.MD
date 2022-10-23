@@ -1,15 +1,14 @@
 
 ## Overzicht IP's
-Iedere challenge heeft 10 toegewezen ip's.
-| Bv. challenge 3 gebruikt ips 30 tot 39 voor zijn props
+192.168.50.xx
+Laatste byte wordt ingevuld met een waarde van 10 tot 99. Iedere challenge heeft 10 toegewezen bytes, zo gaan we voor challenge 1 10-19 gebruiken, challenge 2 20-29, ...
+| Bv. Een prop binnen challenge 3 krijgt een static IP 192.168.50.33
 
-
-
-| PROP | IP  | HOSTNAME |
+| PROP | IP  | MQTT Client Id |
 | ---- | --- | -------- |
 |  |  |  |
 |  |  |  |
 | game monitor| 20  | pi-challenge2 |
-|  |  |  |
+| Kluis Arduino | 45 | KluisArduino |
 |  |  |  |
 
