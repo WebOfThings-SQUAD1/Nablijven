@@ -54,7 +54,7 @@ XCape is een MQTT GUI met verschillende functionaliteiten. Hierin zit dus een in
 
 Voordat we iets gaan doen, checken we of dat onze MQTT server runt. Deze runt dus lokaal bij jezelf op je computer, op poort 1883.  
 
-![xcape](./xcapemqtt.jpg)
+![xcape](./images/xcapemqtt.jpg)
 
 
 De interface van XCape is nu niet bepaald de meest user friendly one, dit kan dus ook snel vrij complex & verwarrend worden. Het is dus vrij vervelend om álles hier neer te zetten, kijk daarvoor zeker eens de [documentatie](https://xcape.io/public/documentation/en/room/Contents.html).
@@ -69,7 +69,7 @@ Om een nieuwe prop toe te voegen & te verbinden met je MQTT broker, ga je naar *
 
 Duw beneden op het **+** icoontje om een nieuwe prop toe te voegen. Hier krijg je een overzicht van enkele zaken die ingevuld moeten worden om een nieuwe prop toe te voegen (zoals inbox, outbox om de in- en uitgaande communicatiekanalen vast te leggen) alsook het **statisch IP adres**. Elke prop heeft een eigen statisch IP, deze vindt je terug in IPAdress.txt.
 
-![nieuwe prop toevoegen](addproprpi.jpg)
+![nieuwe prop toevoegen](./images/addproprpi.jpg)
 
 Bekijk het voorbeeld van de LED Blink Arduino file om te zien wat je moet instellen op je Arduino om te kunnen verbinden. Voor Raspberry PI volgt er nog een voorbeeld.
 
