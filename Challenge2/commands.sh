@@ -8,6 +8,7 @@ log()(
   echo "$(date +"%D %H:%M"):  $1" >> ~/Desktop/logs.log
 )
 
+
 case "$1" in
       boot)
         # wait for network

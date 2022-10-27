@@ -26,6 +26,7 @@ code /home/pi/kiosk.sh
 ```
 <br>
 
+
 Normaal boot alles met de PI, maar in *[wcs](https://www.google.com/search?q=worst+case+scenario)* zijn de volgende [commando's](./commands.sh) zijn beschikbaar:
 
 
