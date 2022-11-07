@@ -8,7 +8,7 @@ Laatste byte wordt ingevuld met een waarde van 10 tot 99. Iedere challenge heeft
 | ---- | --- | -------- |
 |  |  |  |
 |  |  |  |
-| game monitor| 20  | pi-challenge2 |
-| Kluis Arduino | 45 | KluisArduino |
-|  |  |  |
+| RPI Game webbrowser | 20  | pi-challenge2 |
+| Arduino kluis | 45 | KluisArduino |
+| RPI Video | 50 | C5 start-video |
 
