@@ -9,6 +9,6 @@ Laatste byte wordt ingevuld met een waarde van 10 tot 99. Iedere challenge heeft
 |  |  |  |
 |  |  |  |
 | RPI Game webbrowser | 20  | pi-challenge2 |
-| Arduino kluis | 45 | KluisArduino |
+| Arduino kluis | 44 | KluisArduino |
 | RPI Video | 50 | C5 start-video |
 
