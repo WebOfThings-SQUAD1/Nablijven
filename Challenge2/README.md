@@ -4,6 +4,10 @@
 The game.
 A simple Javascript game, locally hosted with Flask in [Kiosk Mode](https://pimylifeup.com/raspberry-pi-kiosk/).
 
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
 <style>
 .warn{
     border: 2px solid #1115;
@@ -26,6 +30,13 @@ h2:hover::after{
     content: '#'
 }
 </style>
+
+
+<div class="warn">Make sure to follow instruction at the [example](https://github.com/xcape-io/PyProps)</div>
+
+    </div>
+  </foreignObject>
+</svg>
 
 
 ## Usage
