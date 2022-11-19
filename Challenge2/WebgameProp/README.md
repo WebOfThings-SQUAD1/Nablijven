@@ -11,7 +11,7 @@ Place the `Room` folder in your home directory ~/Room. <br>
 A good habbit is to place `WebgameProp` in the following folder structure. <br>
 The full folderstructure with examples can be found at [github-pyProps](https://github.com/xcape-io/PyProps)
 
-INFO ℹ️: Changing the folder structure will only require changing some minor imports.
+ℹ️ INFO: Changing the folder structure will only require changing some minor imports.
 
 
 ```bash
@@ -27,7 +27,7 @@ Room
             └── info
 ```
 
-INFO ℹ️: Make sure to follow instruction at the [example](https://github.com/xcape-io/PyProps)
+ℹ️ INFO : Make sure to follow instruction at the [example](https://github.com/xcape-io/PyProps)
 
 2. **Alias:**
 To enable the `cmd` command<br>
@@ -72,7 +72,7 @@ Kiosk star/boot conf:
 code /home/pi/kiosk.sh
 ```
 
-INFO ℹ️: if [code](https://code.visualstudio.com/docs/editor/command-line) command is not available use [sudo nano](https://linuxize.com/post/how-to-use-nano-text-editor/) instead.
+ℹ️ INFO: if [code](https://code.visualstudio.com/docs/editor/command-line) command is not available use [sudo nano](https://linuxize.com/post/how-to-use-nano-text-editor/) instead.
 <br>
 
 
@@ -96,7 +96,7 @@ Kiosk
 cmd kiosk start
 cmd kiosk stop
 cmd kiosk status
-# INFO ℹ️: you can also enable/disable kiosk mode. But this gave an unfixable bug. So don't!
+# ℹ️ INFO: you can also enable/disable kiosk mode. But this gave an unfixable bug. So don't!
 ```
 
 control keys ([xmodmap](https://wiki.archlinux.org/title/xmodmap))
