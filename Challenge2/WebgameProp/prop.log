@@ -1,0 +1,27 @@
+
+[14/11/2022 13:11:59.377] INFO - Program connected to MQTT server
+[14/11/2022 13:11:59.378] INFO - Program sending message 'CONNECTED' (mid=1) on Room/squad1/Props/webgame/outbox
+[14/11/2022 13:11:59.379] INFO - Program subscribing to topic (mid=2) : Room/squad1/Props/webgame/inbox
+[14/11/2022 13:11:59.381] INFO - Message published (mid=1)
+[14/11/2022 13:11:59.439] INFO - Program susbcribed to topic (mid=2) with QoS (0,)
+[14/11/2022 13:12:59.413] INFO - Message received : '@PING' in Room/squad1/Props/webgame/inbox
+[14/11/2022 13:12:59.415] INFO - Program sending message 'PONG' (mid=3) on Room/squad1/Props/webgame/outbox
+[14/11/2022 13:12:59.417] INFO - Message published (mid=3)
+[14/11/2022 13:13:43.911] INFO - Program connected to MQTT server
+[14/11/2022 13:13:43.913] INFO - Program sending message 'CONNECTED' (mid=1) on Room/squad1/Props/webgame/outbox
+[14/11/2022 13:13:43.915] INFO - Program subscribing to topic (mid=2) : Room/squad1/Props/webgame/inbox
+[14/11/2022 13:13:44.069] INFO - Message published (mid=1)
+[14/11/2022 13:13:44.143] INFO - Program susbcribed to topic (mid=2) with QoS (0,)
+[14/11/2022 13:14:44.079] INFO - Message received : '@PING' in Room/squad1/Props/webgame/inbox
+[14/11/2022 13:14:44.080] INFO - Program sending message 'PONG' (mid=3) on Room/squad1/Props/webgame/outbox
+[14/11/2022 13:14:44.081] INFO - Message published (mid=3)
+[14/11/2022 13:15:44.077] INFO - Message received : '@PING' in Room/squad1/Props/webgame/inbox
+[14/11/2022 13:15:44.078] INFO - Program sending message 'PONG' (mid=4) on Room/squad1/Props/webgame/outbox
+[14/11/2022 13:15:44.080] INFO - Message published (mid=4)
+[14/11/2022 13:16:44.087] INFO - Message received : '@PING' in Room/squad1/Props/webgame/inbox
+[14/11/2022 13:16:44.089] INFO - Program sending message 'PONG' (mid=5) on Room/squad1/Props/webgame/outbox
+[14/11/2022 13:16:44.091] INFO - Message published (mid=5)
+[14/11/2022 13:17:17.133] INFO - Program disconnected from MQTT server
+[14/11/2022 13:17:17.135] WARNING - Disconnected from MQTT server with rc=16 from 192.168.50.46:1883
+[14/11/2022 13:18:56.588] INFO - Program disconnected from MQTT server
+[14/11/2022 13:18:56.589] WARNING - Disconnected from MQTT server with rc=16 from 192.168.50.46:1883
