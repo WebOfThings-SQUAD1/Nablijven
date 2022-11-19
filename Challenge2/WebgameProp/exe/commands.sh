@@ -32,15 +32,15 @@ case "$1" in
         addrs=$(cat addrs.conf)
         case "$2" in 
             start)
-                php -S $addrs -t . &> /dev/null &
+                python3 ../gameApp/server_app.py &> /dev/null &
                 ./log "server is active";;
             stop)
-                    sudo killall -9 php
-                    ./log "killed all php";;
+                    pkill -9 Python
+                    ./log "server stopped";;
             status)
                     [[ $(curl -s --max-time 5 "http://$addrs" | wc -c) -gt 0 ]] && ./log active || ./log offline ;;
             open)
-                    python -m webbrowser "http://$addrs"
+                    python3 -m webbrowser "http://$addrs"
                     ./log "opening server";;
             *)
                 ./log -e "server: $2";;
