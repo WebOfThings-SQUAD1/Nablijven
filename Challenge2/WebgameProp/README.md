@@ -7,7 +7,7 @@ A simple Javascript game, locally hosted with Flask in [Kiosk Mode](https://pimy
 
 ## Usage
 1. **Folderstructure:**
-Place the `Room` folder in your home directory eg. ~/pi. <br>
+Place the `Room` folder in your home directory ~/Room. <br>
 A good habbit is to place `WebgameProp` in the following folder structure. <br>
 The full folderstructure with examples can be found at [github-pyProps](https://github.com/xcape-io/PyProps)
 
