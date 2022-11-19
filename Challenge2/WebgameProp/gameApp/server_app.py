@@ -1,7 +1,12 @@
 from flask import Flask, redirect, render_template
 
-
-
+try:
+    [host, port] = open("../exe/addrs.conf", "r").read().split(':')
+except Exception as e:
+    print(e)
+    port='127.0.0.1'
+    port=9919
+    
 app = Flask(__name__)
 
 
@@ -24,4 +29,4 @@ def won():
     
     
 if __name__ == "__main__":
-    app.run()
+    app.run(host=host, port=port)
