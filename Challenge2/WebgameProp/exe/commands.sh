@@ -3,7 +3,7 @@
 
     
 _pth=$(pwd)
-cd ~/Room/Props/pyProps/WebgameProp/App
+cd $(dirname "$0")
 
 
 case "$1" in 
@@ -11,16 +11,19 @@ case "$1" in
         ./log succesfully-tested
         ;;
     'init')
-        ./commands.sh server start
-        ./commands.sh keys disable
-        ./commands.sh kiosk start
+        0$ server start
+        0$ keys disable
+        0$ kiosk start
         ;;
     'keys')
         case "$2" in 
             disable)
-                xmodmap ./.Xmodmap-disable 
+                ./disablekeys
+                # xmodmap ./.Xmodmap-disable 
                 ;;
             reset)
+                echo naat
+                exit 0
                 xmodmap ./.Xmodmap-reset 
                 ;;
             *)
