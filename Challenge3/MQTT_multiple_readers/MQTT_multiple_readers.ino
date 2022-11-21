@@ -184,7 +184,7 @@ void rfids()
       // If the reading fails to match the correct ID for this sensor
       if (currentIDs[i] != correctIDs[i]) {
         // the puzzle has not been solved
-        puzzleSolved = false;
+        SOLVED = false;
       }
 
       // Halt PICC
