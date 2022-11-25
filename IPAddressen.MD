@@ -6,9 +6,13 @@ Laatste byte wordt ingevuld met een waarde van 10 tot 99. Iedere challenge heeft
 
 | PROP | IP  | MQTT Client Id |
 | ---- | --- | -------- |
-|  |  |  |
-|  |  |  |
-| RPI Game webbrowser | 20  | pi-challenge2 |
-| Arduino kluis | 44 | KluisArduino |
-| RPI Video | 50 | C5 start-video |
+| RPI Game webbrowser | 20  | webgame |
+| Arduino rfids | 30  | rfids |
+| Arduino kluis | 44 | kluis |
+| RPI Video | 50 | Video |
 
+IP LAPTOP LORENZO
+
+192.168.50.45
+
+soms verandert deze in 192.168.50.46, vraag het zeker na
