@@ -1,0 +1,35 @@
+#!/bin/bash
+# info @ https://wiki.archlinux.org/title/xmodmap
+# info on keycodes: https://gist.github.com/rickyzhang82/8581a762c9f9fc6ddb8390872552c250
+# https://askubuntu.com/questions/29603/how-do-i-clear-xmodmap-settings
+# xev
+
+
+#xmodmap -e "clear Mod1"
+#xmodmap -e "clear Mod2"
+#xmodmap -e "clear Mod3"
+#xmodmap -e "clear Mod4"
+#xmodmap -e "clear Mod5"
+
+#xmodmap -e "clear Control"
+#xmodmap -e "clear Shift"
+#xmodmap -e "clear Lock"
+
+#xmodmap -e "clear Alt"s
+#xmodmap -e "clear Enter"
+
+# The following invocation of the X11 setxkbmap command disables Ctrl-Alt-Fn console/virtual terminal switching:
+setxkbmap -option srvrkeys:none
+
+
+# disable everything except keys_enable
+#        (36)enter (111..116)arrows (22)backspace  (*n)a-z          
+keys_enable=(36 111 113 114 116 22 24 25 26 27 28 82 29 30 31 32 33 38 39 40 41 42 43 44 45 46 52 53 54 55 56 57 58)
+
+for i in {1..255}
+do
+  if [[ ! "${keys_enable[*]}" =~ "${i}" ]]; then
+      xmodmap -e  "keycode $i="
+  fi
+done
+
