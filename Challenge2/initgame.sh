@@ -35,5 +35,5 @@ node app.js &
 bash ../log "node js active"
 
 # disable keys
-#./disablekeys &
-#./log "keys disabled"
+./disablekeys &
+./log "keys disabled"
