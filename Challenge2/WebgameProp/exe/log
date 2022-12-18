@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# local log file and send mqtt log if connected
-res="$1"
-[[ "$1" == "-e" ]] && res="CMD err: Command not found $1 - $2"
-echo $res
-echo "$(date +"%D %H:%M"):  $res" >> logs.log
-
