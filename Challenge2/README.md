@@ -9,20 +9,14 @@ home/pi
 ├── initgame.sh
 ├── kiosk.sh
 └── webgame
-    ├── addrs.conf
     ├── app
     │   ├── app.js
     │   ├── ...
     │   └── src
-    ├── commands 2.sh
-    ├── commands.sh
+    ├── ...
     ├── disablekeys
-    ├── info
-    │   ├── install.sh
-    │   └── kiosk_troubleshooting.txt
     ├── log
-    ├── logs.log
-    └── README.md
+    └── logs.log
 ```
 
 ## setup
@@ -50,10 +44,13 @@ sudo chmod +x ~/webgame/disablekeys
 ```
 
 ### 3. options to  run the ~/initgame.sh at boot
--a) place it at end of: `/etc/rc.local` (did not always work, for some reason)
--b) use LXDE:
+a) place it at end of: `/etc/rc.local` (did not always work, for some reason)
+
+b) use LXDE:
 ```
 sudo nano  ~/.config/lxsession/LXDE-pi/autostart
+```
+```
 @lxpanel --profile LDXE-pi
 @pcmanfm --desktop --profile LDXE-pi
 @xscreensaver -no-splash
